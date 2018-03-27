@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtrere"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:foregroundGravity="center"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/namever"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:shadowColor="#7F000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:text="RoboNC"
+        android:textColor="@android:color/background_dark"
+        android:textSize="@dimen/_30sdp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/namever"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_14sdp"
+        android:text="By"
+        android:textSize="@dimen/_16sdp"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:gravity="center"
+        android:text="ARRTSM,Germany"
+        android:textColor="@android:color/background_dark"
+        android:textSize="@dimen/_18sdp" />
+
+
+
+    <TextView
+        android:id="@+id/txtrere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:text="Loading..."
+        android:textSize="@dimen/_14sdp"
+        android:textColor="@android:color/background_dark" />
+
+    <!--<ProgressBar
+        android:id="@+id/ProgressBar01"
+        style="@drawable/custom"
+        android:layout_width="@dimen/_250sdp"
+        android:max="100"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtrere"
+        android:layout_centerHorizontal="true" />-->
+
+</RelativeLayout>
