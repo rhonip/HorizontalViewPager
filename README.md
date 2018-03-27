@@ -27,3 +27,4 @@ HorizontalViewpager with dynamic background
            }
            
            
+Reference: infiniteCycleViewPager
